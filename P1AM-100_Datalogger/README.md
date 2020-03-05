@@ -6,10 +6,8 @@ PURPOSE:
  to an SD card using the SD library.
 
  The circuit:
- * SD card attached to SPI bus as follows:
- ** MOSI - pin 11
- ** MISO - pin 12
- ** CLK - pin 13
+ * The SD card uses an internal SPI bus that is not present on the header. 
+ * The SD library handles most of the pins, but you still need give it CS.
  ** CS - pin SDCARD_SS_PIN(28)
 
  created  24 Nov 2010
