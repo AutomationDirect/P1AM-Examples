@@ -16,7 +16,7 @@ PURPOSE:
  Step 4: Verify Slot 1 Channel 2 output is blinking.
  
  // To see a failure
- Step 5: Comment out lines 59-65.
+ Step 5: Comment out lines 55-62.
  Step 6: Upload to the P1AM-100.
  Step 7: Remove 24Vdc power & reapply.*Note: Open serial Monitor you will get a "Base Sync Timeout" error. 
  Step 8: The output on Slot 1 Channel 2 should not be blinking.
