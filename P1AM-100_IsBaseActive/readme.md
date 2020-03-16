@@ -21,6 +21,11 @@ PURPOSE:
  Step 7: Remove 24Vdc power & reapply.*Note: Open serial Monitor you will get a "Base Sync Timeout" error. 
  Step 8: The output on Slot 1 Channel 2 should not be blinking.
 
-  It will also provide error feedback to the serial monitor on loss of 24Vdc.
+It will also provide error feedback to the serial monitor on loss of 24Vdc.
+  
+Possible errors:
+
+Base Sync Timeout
+No Base controller activity
 
 *The information provided in the AutomationDirect knowledge base is provided "as is" without warranty of any kind. AutomationDirect disclaims all warranties, either express or implied, including the warranties of merchantability and fitness for a particular purpose. In no event shall AutomationDirect or its suppliers be liable for any damages whatsoever including direct, indirect, incidental, consequential, loss of business profits or special damages, even if AutomationDirect or its suppliers have been advised of the possibility of such damages. Some states do not allow the exclusion of limitation of liability for consequential or incidental damages so the foregoing limitation may not apply.
