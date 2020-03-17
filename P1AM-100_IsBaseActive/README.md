@@ -19,7 +19,7 @@ To detect a base failure and re-init:
 
  
 To see a failure:
-- 5: Comment out lines 59-65.
+- 5: Comment out lines 55-62.
 - 6: Upload to the P1AM-100.
 - 7: Remove 24Vdc power & reapply.*Note: Open serial Monitor you will get a "Base Sync Timeout" error.
 - 8: The output on Slot 1 Channel 2 should not be blinking.
