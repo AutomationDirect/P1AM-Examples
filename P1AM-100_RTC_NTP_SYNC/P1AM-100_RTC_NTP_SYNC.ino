@@ -35,7 +35,7 @@ RTCZero rtc;  //rtc object to get the time from
 
 #define MINUTE 60
 #define HOUR 60 * MINUTE
-#define DAY 7 * HOUR
+#define DAY 24 * HOUR
 const unsigned int ntpSyncTime = DAY; //86400 seconds. Resync every 24 hours.
 
 //If your timezone isn't here, lookup an epoch offset list to find the correct value
